@@ -4,6 +4,7 @@ class User {
     this.age = age; 
     this.followers = followers;
   }
+  
   getInfo() {
     const userInfo = `User ${this.name} is ${this.age} years old and has ${this.followers} followers`
     return userInfo;
